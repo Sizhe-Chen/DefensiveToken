@@ -1,5 +1,5 @@
-# Defending Against Prompt Injection With a Few DefensiveTokens
-[PAPER](https://arxiv.org/pdf/2507.07974). [Sizhe Chen](https://sizhe-chen.github.io), [Yizhu Wang](https://yizhu-joy.github.io), [Nicholas Carlini](https://nicholas.carlini.com), [Chawin Sitawarin](https://chawins.github.io), [David Wagner](https://people.eecs.berkeley.edu/~daw)
+# Defending Against Prompt Injection With a Few DefensiveTokens [![](https://img.shields.io/badge/Paper-a8c66c)](https://arxiv.org/pdf/2507.07974)
+[Sizhe Chen](https://sizhe-chen.github.io), [Yizhu Wang](https://yizhu-joy.github.io), [Nicholas Carlini](https://nicholas.carlini.com), [Chawin Sitawarin](https://chawins.github.io), [David Wagner](https://people.eecs.berkeley.edu/~daw)
 
 When large language model (LLM) systems interact with external data to perform complex tasks, a new attack, namely prompt
 injection, becomes a significant threat. By injecting instructions
@@ -19,6 +19,8 @@ remains the same as there is no defense, generating high-quality
 responses. Thus, DefensiveTokens, if released alongside the model,
 allow a flexible switch between the state-of-the-art (SOTA) utility
 and almost-SOTA security at test time.
+
+![DefensiveToken Overview](teaser.jpg)
 
 + Install environment dependencies: add our optimized DefensiveTokens to public model's vocabulary
 > git clone https://github.com/Sizhe-Chen/DefensiveToken \
