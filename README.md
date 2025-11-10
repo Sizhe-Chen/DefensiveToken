@@ -1,5 +1,6 @@
 # Defending Against Prompt Injection With a Few DefensiveTokens 
 [![](https://img.shields.io/badge/AISec%20Spotlight-2025-e1dd72)](https://arxiv.org/abs/2507.07974) [![](https://img.shields.io/badge/Paper-a8c66c)](https://arxiv.org/pdf/2507.07974) [![](https://img.shields.io/badge/Slides-f47a60)](https://drive.google.com/file/d/1P6AfgGCqV5r3lU8Us8ehLDN6tpajDSm-/view?usp=sharing)
+
 [Sizhe Chen](https://sizhe-chen.github.io), [Yizhu Wang](https://yizhu-joy.github.io), [Nicholas Carlini](https://nicholas.carlini.com), [Chawin Sitawarin](https://chawins.github.io), [David Wagner](https://people.eecs.berkeley.edu/~daw)
 
 When large language model (LLM) systems interact with external data to perform complex tasks, a new attack, namely prompt
